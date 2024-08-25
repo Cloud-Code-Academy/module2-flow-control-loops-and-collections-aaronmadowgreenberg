@@ -418,8 +418,8 @@ if(words.contains(wordToFind)){
         // Get the salary of the employee
 Integer employeeSalary=employeeInventory.get(employeeName);
         // Return the salary of the employee, or null if the employee is not found in the Map
-if(employeeSalary!=null)
-return employeeSalary;
+if(employeeSalary!=null){
+return employeeSalary;}
 else return null;
     }
 
